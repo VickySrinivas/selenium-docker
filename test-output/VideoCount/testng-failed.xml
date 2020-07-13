@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VideoCount]">
+  <test thread-count="5" name="Test_Video_LinkCount_1(failed)">
+    <parameter name="keyvalue" value="java"/>
+    <classes>
+      <class name="com.search.videoLink.videoLinkTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="getVideosCount"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.search.videoLink.videoLinkTest -->
+    </classes>
+  </test> <!-- Test_Video_LinkCount_1(failed) -->
+  <test thread-count="5" name="Test_Video_LinkCount_2(failed)">
+    <parameter name="keyvalue" value="python"/>
+    <classes>
+      <class name="com.search.videoLink.videoLinkTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="getVideosCount"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.search.videoLink.videoLinkTest -->
+    </classes>
+  </test> <!-- Test_Video_LinkCount_2(failed) -->
+  <test thread-count="5" name="Test_Video_LinkCount_3(failed)">
+    <parameter name="keyvalue" value="machinelearning"/>
+    <classes>
+      <class name="com.search.videoLink.videoLinkTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="getVideosCount"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.search.videoLink.videoLinkTest -->
+    </classes>
+  </test> <!-- Test_Video_LinkCount_3(failed) -->
+  <test thread-count="5" name="Test_Video_LinkCount_4(failed)">
+    <parameter name="keyvalue" value="deeplearning"/>
+    <classes>
+      <class name="com.search.videoLink.videoLinkTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="getVideosCount"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.search.videoLink.videoLinkTest -->
+    </classes>
+  </test> <!-- Test_Video_LinkCount_4(failed) -->
+</suite> <!-- Failed suite [VideoCount] -->

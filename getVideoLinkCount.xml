@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="VideoCount" parallel="tests">
+	<test name= "Test_Video_LinkCount_1">
+		<parameter name="keyvalue" value="java" />
+		<classes>
+			<class name="com.search.videoLink.videoLinkTest" />
+		</classes>
+	</test> 
+	
+		<test name= "Test_Video_LinkCount_2">
+		<parameter name="keyvalue" value="python" />
+		<classes>
+			<class name="com.search.videoLink.videoLinkTest" />
+		</classes>
+	</test> 
+
+		<test name= "Test_Video_LinkCount_3">
+		<parameter name="keyvalue" value="machinelearning" />
+		<classes>
+			<class name="com.search.videoLink.videoLinkTest" />
+		</classes>
+	</test> 
+	
+		<test name= "Test_Video_LinkCount_4">
+		<parameter name="keyvalue" value="deeplearning" />
+		<classes>
+			<class name="com.search.videoLink.videoLinkTest" />
+		</classes>
+	</test> 
+</suite>
